@@ -101,7 +101,7 @@ dist
 .vuepress/dist
 
 # vuepress v2.x temp and cache directory
-.temp
+# .temp
 .cache
 
 # vitepress build output
@@ -134,3 +134,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+src/temp/*
+!src/temp/.gitkeep
+src/uploads/*
+!src/uploads/.gitkeep
